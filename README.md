@@ -12,8 +12,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Stats preview card component](https://guztrillo.github.io/TFM-stats-preview-card-component/)
 
 ## My process
 
@@ -34,7 +33,7 @@ So I must go on and keep practice harder.
 
 ### Useful resources
 
-- [Example resource 1](https://dev.to/darnocer/how-to-setup-your-project-with-sass-scss-ip4) - "How to Set Your Project Up With Sass".
-- [Example resource 2](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - "Two ways to create an image with a colour overlay in CSS".
+- ["How to Set Your Project Up With Sass"](https://dev.to/darnocer/how-to-setup-your-project-with-sass-scss-ip4)
+- ["Two ways to create an image with a colour overlay in CSS"](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio)
 
 
