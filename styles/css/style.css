@@ -1,0 +1,120 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  background-color: #090b1a;
+  font-size: 15px; }
+
+.typo__heading {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px; }
+
+.typo__heading_main {
+  font-size: 20px; }
+
+.typo__acent {
+  color: #aa5cdb; }
+
+.typo__main {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.7; }
+
+.typo__stats {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 7.5px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase; }
+
+.main {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 20px; }
+
+.card__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px; }
+
+.card__content {
+  align-items: center;
+  background-color: #1b1938;
+  border-radius: 0 0 5px 5px;
+  display: grid;
+  grid-template: repeat(3, auto)/1fr;
+  justify-items: center;
+  padding: 20px;
+  text-align: center; }
+  .card__content .typo__main {
+    padding: 10px 20px;
+    width: 210px; }
+  .card__content .typo__heading_main {
+    padding: 0 10px; }
+
+.card__stats {
+  width: 100%;
+  display: grid;
+  grid-template: repeat(3, auto)/1 fr;
+  padding-bottom: 10px; }
+
+.card__stat {
+  padding-top: 20px; }
+  .card__stat .typo__heading {
+    padding-bottom: 5px; }
+
+.card__img {
+  background: #7826ab;
+  background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("/images/image-header-mobile.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  height: 185px;
+  opacity: 0.8;
+  width: 100%; }
+
+@media (min-width: 900px) {
+  .card__main {
+    flex-direction: row-reverse;
+    min-width: 600px;
+    height: auto; }
+  .card__stats {
+    grid-template: 1fr/repeat(3, 1fr);
+    gap: 25px; }
+    .card__stats .typo__heading {
+      font-size: 20px; }
+  .card__content {
+    border-radius: 5px 0 0 5px;
+    min-width: 450px;
+    min-height: 365px;
+    padding: 50px 80px 50px 50px;
+    text-align: left; }
+    .card__content .typo__main {
+      font-size: 12px;
+      width: 100%;
+      padding: 10px 10px 40px 0; }
+    .card__content .typo__heading_main {
+      font-size: 30px;
+      padding: 0 0 10px 0; }
+  .card__img {
+    background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("/images/image-header-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 5px 5px 0;
+    min-height: 365px;
+    min-width: 435px;
+    opacity: 0.8; } }

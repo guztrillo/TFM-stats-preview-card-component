@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap';
+
+.typo__heading {
+     color: $white;
+     font-family: 'Inter', sans-serif;
+     font-weight: 700;
+     font-size: 17px;
+}
+
+.typo__heading_main {
+     font-size: 20px;
+}
+
+.typo__acent {
+     color: $soft-violet;
+}
+
+.typo__main {
+     color: $transparent-white-p;
+     font-family: 'Inter', sans-serif;
+     font-weight: 400;
+     font-size: 10px;
+     line-height: 1.7;
+}
+
+.typo__stats {
+     color: $transparent-white-h;
+     font-family: 'Lexend Deca', sans-serif;
+     font-size: 7.5px;
+     font-weight: 400;
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+}
