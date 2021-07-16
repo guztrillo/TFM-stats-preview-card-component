@@ -48,7 +48,7 @@
 }
 
 .card__img {
-     background: linear-gradient($soft-violet-o, $soft-violet-o), url(../images/image-header-mobile.jpg);
+     background: linear-gradient($soft-violet-o, $soft-violet-o), url(./images/image-header-mobile.jpg);
      background-position: center center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -91,7 +91,7 @@
           }
      } 
      .card__img {
-          background: linear-gradient($soft-violet-o, $soft-violet-o), url(../images/image-header-desktop.jpg);
+          background: linear-gradient($soft-violet-o, $soft-violet-o), url(./images/image-header-desktop.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
