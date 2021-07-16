@@ -76,7 +76,7 @@ html, body {
     padding-bottom: 5px; }
 
 .card__img {
-  background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("/images/image-header-mobile.jpg");
+  background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url(/images/image-header-mobile.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@ html, body {
       font-size: 30px;
       padding: 0 0 10px 0; }
   .card__img {
-    background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("/images/image-header-desktop.jpg");
+    background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url(/images/image-header-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
