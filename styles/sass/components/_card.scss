@@ -47,15 +47,21 @@
      }
 }
 
+
 .card__img {
-     background: linear-gradient($soft-violet-o, $soft-violet-o), url(https://res.cloudinary.com/dfy2rja39/image/upload/v1626468237/q24vnyzgv0yrgx2a26l4.jpg);
-     background-position: center center;
-     background-repeat: no-repeat;
-     background-size: cover;
+     background-color: $soft-violet;
      border-radius: 5px 5px 0 0;
      height: 185px;
      opacity: 0.8;
      width: 100%;
+     img {
+          border-radius: 5px 5px 0 0;
+          height: 100%;
+          mix-blend-mode: multiply;
+          object-fit: cover;
+          opacity: 0.7;
+          width: 100%;
+     }
 }
 
 @media (min-width: 900px) {
@@ -91,13 +97,11 @@
           }
      } 
      .card__img {
-          background: linear-gradient($soft-violet-o, $soft-violet-o), url(https://res.cloudinary.com/dfy2rja39/image/upload/v1626468236/faaofuzdco3s5appqxc7.jpg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
           border-radius: 0 5px 5px 0;
           min-height: 365px;
           min-width: 435px;
-          opacity: 0.8;
+          img {
+               border-radius: 0 5px 5px 0;
+          }
      }
 }

@@ -76,14 +76,18 @@ html, body {
     padding-bottom: 5px; }
 
 .card__img {
-  background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url(https://res.cloudinary.com/dfy2rja39/image/upload/v1626468237/q24vnyzgv0yrgx2a26l4.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #aa5cdb;
   border-radius: 5px 5px 0 0;
   height: 185px;
   opacity: 0.8;
   width: 100%; }
+  .card__img img {
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+    mix-blend-mode: multiply;
+    object-fit: cover;
+    opacity: 0.7;
+    width: 100%; }
 
 @media (min-width: 900px) {
   .card__main {
@@ -109,11 +113,8 @@ html, body {
       font-size: 30px;
       padding: 0 0 10px 0; }
   .card__img {
-    background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url(https://res.cloudinary.com/dfy2rja39/image/upload/v1626468236/faaofuzdco3s5appqxc7.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 0 5px 5px 0;
     min-height: 365px;
-    min-width: 435px;
-    opacity: 0.8; } }
+    min-width: 435px; }
+    .card__img img {
+      border-radius: 0 5px 5px 0; } }
