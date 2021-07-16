@@ -48,7 +48,6 @@
 }
 
 .card__img {
-     background: darken($color: $soft-violet, $amount: 20);
      background: linear-gradient($soft-violet-o, $soft-violet-o), url('/images/image-header-mobile.jpg');
      background-position: center center;
      background-repeat: no-repeat;

@@ -76,7 +76,6 @@ html, body {
     padding-bottom: 5px; }
 
 .card__img {
-  background: #7826ab;
   background: linear-gradient(rgba(170, 91, 219, 0.5), rgba(170, 91, 219, 0.5)), url("/images/image-header-mobile.jpg");
   background-position: center center;
   background-repeat: no-repeat;
